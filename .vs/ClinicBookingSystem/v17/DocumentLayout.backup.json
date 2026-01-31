@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\DotNet_Project\\ClinicBookingSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\enums\\appointmentstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\clinic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\doctorslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\doctorslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|d:\\dotnet_project\\clinicbookingsystem\\clinicbooking.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A939262B-FDF3-4F34-B804-0095C80D3C89}|ClinicBooking.Domain\\ClinicBooking.Domain.csproj|solutionrelative:clinicbooking.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +46,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentStatus.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Enums\\AppointmentStatus.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Enums\\AppointmentStatus.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Enums\\AppointmentStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:51:13.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DoctorSlot.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\DoctorSlot.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\DoctorSlot.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\DoctorSlot.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\DoctorSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:36:11.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\Appointment.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Appointment.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:33:06.203Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -20,8 +96,82 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T16:09:25.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Clinic.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Clinic.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\Clinic.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Clinic.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\Clinic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:27:46.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\Role.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T16:06:42.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RefreshToken.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\RefreshToken.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\RefreshToken.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\RefreshToken.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\RefreshToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T07:09:07.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T07:08:18.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "ClinicBooking.Domain\\Entities\\Doctor.cs",
+              "ToolTip": "D:\\DotNet_Project\\ClinicBookingSystem\\ClinicBooking.Domain\\Entities\\Doctor.cs",
+              "RelativeToolTip": "ClinicBooking.Domain\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T17:07:45.862Z",
+              "EditorCaption": ""
             }
           ]
         }

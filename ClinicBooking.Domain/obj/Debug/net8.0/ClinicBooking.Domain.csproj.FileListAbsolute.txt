@@ -1,0 +1,12 @@
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\bin\Debug\net8.0\ClinicBooking.Domain.deps.json
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\bin\Debug\net8.0\ClinicBooking.Domain.dll
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\bin\Debug\net8.0\ClinicBooking.Domain.pdb
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.AssemblyInfoInputs.cache
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.AssemblyInfo.cs
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.csproj.CoreCompileInputs.cache
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.sourcelink.json
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.dll
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\refint\ClinicBooking.Domain.dll
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ClinicBooking.Domain.pdb
+D:\DotNet_Project\ClinicBookingSystem\ClinicBooking.Domain\obj\Debug\net8.0\ref\ClinicBooking.Domain.dll
