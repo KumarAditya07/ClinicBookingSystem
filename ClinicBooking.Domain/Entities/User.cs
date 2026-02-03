@@ -18,6 +18,10 @@ namespace ClinicBooking.Domain.Entities
         public Guid RoleId { get; set; }   // FK
         public Role Role { get; set; } = null!;
 
+       public ICollection<RefreshToken> RefreshTokens { get; set; }
+    = new List<RefreshToken>();
+
+
     }
 
 

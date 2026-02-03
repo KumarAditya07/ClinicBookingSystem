@@ -30,5 +30,33 @@ namespace ClinicBooking.API.Controllers
                 Data = null
             });
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginRequestDto request)
+        {
+            var result = await _authService.LoginAsync(request);
+
+            return Ok(new ApiResponse<LoginResponseDto>
+            {
+                Success = true,
+                Message = "Login successful",
+                Data = result
+            });
+        }
+
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken(
+    RefreshTokenRequestDto request)
+        {
+            var result = await _authService.RefreshTokenAsync(request);
+
+            return Ok(new ApiResponse<RefreshTokenResponseDto>
+            {
+                Success = true,
+                Message = "Token refreshed successfully",
+                Data = result
+            });
+        }
+
     }
 }

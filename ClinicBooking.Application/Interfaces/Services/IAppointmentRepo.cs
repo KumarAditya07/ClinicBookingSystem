@@ -1,6 +1,7 @@
 ﻿namespace ClinicBooking.Application.Interfaces.Services
 {
-    public interface IAppointmentService
+    public interface IAppointmentRepo
     {
+
     }
 }

@@ -7,4 +7,6 @@
         public T? Data { get; set; }
     }
 
+
 }
+    

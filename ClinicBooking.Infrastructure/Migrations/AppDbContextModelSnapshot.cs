@@ -173,6 +173,41 @@ namespace ClinicBooking.Infrastructure.Migrations
                     b.ToTable("DoctorSlots");
                 });
 
+            modelBuilder.Entity("ClinicBooking.Domain.Entities.RefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens");
+                });
+
             modelBuilder.Entity("ClinicBooking.Domain.Entities.Role", b =>
                 {
                     b.Property<Guid>("Id")
@@ -200,26 +235,26 @@ namespace ClinicBooking.Infrastructure.Migrations
                         new
                         {
                             Id = new Guid("11111111-1111-1111-1111-111111111111"),
-                            CreatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1825),
+                            CreatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3207),
                             IsActive = true,
                             RoleName = "Admin",
-                            UpdatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1826)
+                            UpdatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3209)
                         },
                         new
                         {
                             Id = new Guid("22222222-2222-2222-2222-222222222222"),
-                            CreatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1832),
+                            CreatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3214),
                             IsActive = true,
                             RoleName = "Doctor",
-                            UpdatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1833)
+                            UpdatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3215)
                         },
                         new
                         {
                             Id = new Guid("33333333-3333-3333-3333-333333333333"),
-                            CreatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1835),
+                            CreatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3217),
                             IsActive = true,
                             RoleName = "Patient",
-                            UpdatedAt = new DateTime(2026, 2, 2, 5, 56, 1, 459, DateTimeKind.Utc).AddTicks(1836)
+                            UpdatedAt = new DateTime(2026, 2, 3, 15, 15, 3, 78, DateTimeKind.Utc).AddTicks(3217)
                         });
                 });
 
@@ -321,6 +356,17 @@ namespace ClinicBooking.Infrastructure.Migrations
                     b.Navigation("Doctor");
                 });
 
+            modelBuilder.Entity("ClinicBooking.Domain.Entities.RefreshToken", b =>
+                {
+                    b.HasOne("ClinicBooking.Domain.Entities.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ClinicBooking.Domain.Entities.User", b =>
                 {
                     b.HasOne("ClinicBooking.Domain.Entities.Role", "Role")
@@ -340,6 +386,11 @@ namespace ClinicBooking.Infrastructure.Migrations
             modelBuilder.Entity("ClinicBooking.Domain.Entities.Doctor", b =>
                 {
                     b.Navigation("Slots");
+                });
+
+            modelBuilder.Entity("ClinicBooking.Domain.Entities.User", b =>
+                {
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }

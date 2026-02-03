@@ -7,5 +7,7 @@ namespace ClinicBooking.Infrastructure.Repositories
         Task<bool> EmailExistsAsync(string email);
         Task AddUserAsync(User user);
         Task<Role> GetRoleByNameAsync(string roleName);
+
+        Task<User?> GetUserByEmailAsync(string email);
     }
 }

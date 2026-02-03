@@ -23,6 +23,8 @@ namespace ClinicBooking.Infrastructure.Data
         public DbSet<DoctorSlot> DoctorSlots { get; set; }
         public DbSet<Appointment> Appointments { get; set; }
 
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -60,6 +62,15 @@ namespace ClinicBooking.Infrastructure.Data
     .WithOne()
     .HasForeignKey<Appointment>(a => a.SlotId)
     .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<RefreshToken>()
+       .HasOne(rt => rt.User)
+       .WithMany(u => u.RefreshTokens)
+       .HasForeignKey(rt => rt.UserId)
+       .OnDelete(DeleteBehavior.Cascade);
+
+
+
 
 
 
